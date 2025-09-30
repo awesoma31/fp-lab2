@@ -3,7 +3,6 @@ defmodule AvlSetPropTest do
   use ExUnitProperties
   alias AvlSet, as: S
 
-  # helpers
   defp from_list(xs, cmp \\ &</2), do: Enum.reduce(xs, S.new(cmp), &S.insert(&2, &1))
   defp ints_gen, do: StreamData.list_of(StreamData.integer(), max_length: 120)
 
