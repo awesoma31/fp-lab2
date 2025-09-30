@@ -22,7 +22,8 @@ defmodule Lab2.MixProject do
   defp deps do
     [
       {:dialyxir, "~> 1.4", only: [:dev], runtime: false},
-      {:credo, "~> 1.7", only: [:dev, :test], runtime: false}
+      {:credo, "~> 1.7", only: [:dev, :test], runtime: false},
+      {:stream_data, "~> 0.6", only: :test}
     ]
   end
 end
