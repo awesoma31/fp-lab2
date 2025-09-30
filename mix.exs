@@ -23,7 +23,7 @@ defmodule Lab2.MixProject do
     [
       {:dialyxir, "~> 1.4", only: [:dev], runtime: false},
       {:credo, "~> 1.7", only: [:dev, :test], runtime: false},
-      {:stream_data, "~> 0.6", only: :test}
+      {:stream_data, "~> 1.0", only: :test}
     ]
   end
 end
