@@ -113,7 +113,7 @@ end
 @spec compare(t(a), t(a), cmp(a)) :: :lt | :eq | :gt when a: term()
 ```
 
-*`equal?` и `compare` реализованы ко-итерацией двух inorder-итераторов без материализации списков; эквивалентность: `not lt.(a,b) and not lt.(b,a)`.*
+*`equal?` и `compare` реализованы ко-итерацией двух inorder-итераторов;*
 
 ---
 
