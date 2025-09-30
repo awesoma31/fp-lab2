@@ -40,7 +40,7 @@ jobs:
         run: MIX_ENV=test mix compile
 
       - name: Credo
-        run: mix credo
+        run: mix credo --strict
 
       - name: Run tests
         run: mix test --trace
